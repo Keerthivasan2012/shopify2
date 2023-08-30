@@ -1,0 +1,257 @@
+body {
+    margin: 0px;
+}
+
+/*product*/
+.sidebar{
+    height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 2;
+  background-color:  lightgoldenrodyellow;
+  padding-top: 40px;
+  border: 1px solid;
+  border-right-color:lightgrey;
+  border-top-color: transparent;
+}
+.sidebar h2{
+    margin: 0;
+    padding:0;
+    
+}
+#item1{
+    padding-right: 50px;
+    color:black;
+}
+#item2{
+    padding-right: 40px;
+    color: black;
+}
+#item3{
+    padding-right: 30px;
+    color: black;
+}
+#description .sidebar{
+    margin: 50px;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+
+#product1 h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    padding: 10px;
+    padding-left: 280px;
+    
+}
+#product1 p{
+    padding-left: 210px;
+}
+
+#product1 .icon{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#product1 .icon:hover{
+    color: orangered;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width:19%;
+    min-width:50px;
+    padding: 5px 10px;
+    border:1px solid #cce7d0;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 300px;
+    position: relative;
+}
+
+#product1 .pro img{
+    width:100%;
+    border-radius: 20px;
+    border-radius: 20px;
+    height: 150px;
+}
+
+#product1 .pro:hover{
+    background-color: lightcoral;
+}
+
+#product1 .pro .description{
+    text-align: start;
+    padding: 10px 0;
+}
+
+
+
+/*cart*/
+#header{
+    text-align: center;
+    font-size: 35px;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    
+}
+
+#cart table img{
+    width:80px;
+}
+/*pesudo class*/
+
+#cart table td:nth-child(1){
+    width:100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2){
+    width:100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3){
+    width:200px;
+    text-align: center;
+}
+#cart table td:nth-child(4){
+    width:250px;
+    text-align: center;
+}
+#cart table td:nth-child(5){
+    width:300px;
+    text-align: center;
+}
+#cart table td:nth-child(6){
+    width:3500px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width:70px;
+    padding: 10px 5px 10px 15px;
+    background-color: aqua;
+}
+
+#cart table th tr td{
+    padding-top: 5px;
+}
+/*login*/
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}*/
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:lightgoldenrodyellow	;
+    width: 100%;
+
+}
+
+.cover{
+    width: 250px;
+    height:270px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+.cover h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn{
+    text-align: center;
+    height: 20px;
+    width: 180px;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+    padding-right: 5px;
+    
+    
+}
+.user-box{
+    padding-left: 33px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    
+	
+    
+}
+
+.pass{
+    padding-left: 33px;
+    font-size: 24px;
+    border-radius: 10px;
+    border-color: 1px solid black;
+
+}
+
+
+/* Logo */
+#logo { padding:0; width:auto; float:left;}
+#logo h1 a, h1 a:hover { color:darkred; text-decoration:none;}
+#logo h1 span { color:#f8dbdb;}
+
+/* Header */
+.header-common { background-color: lightgoldenrodyellow; width:100%; height: 60px;}
+#header-inner { 
+    margin-left:50%; 
+    padding:0; 
+    width:970px;
+}
+
+
+.pro {
+    width: 165px;
+    height: 230px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: lightgrey;
+}
+
+.pro img {
+    width: 150px;
+    height: 150px;
+   
+}
+
+.pro h4 {
+    margin: 2px;
+}
+
+.pro h5 {
+    margin: 2px;
+}
+

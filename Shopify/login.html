@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./shopify.css">
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="shopify.js"></script>
+
+</head>
+<body style="background-color:  lightgoldenrodyellow;">
+    <div>
+        <div style="position: fixed;width: 100%;height: 60px;text-align: center;">
+            <header class="header-common">
+                <div style="padding-top: 10px; font-size: 32px;">Shopify</div>
+            </header>
+        </div>
+        <div class="log">
+            <div class="cover">
+                <h1>Login</h1>
+                <form>
+                    <div id="error" style="padding-left: 33px; color: darkred;" ></div>
+                    <div class="user-box">
+                    <input style="background-color: darksalmon;" type="text" id="email"  placeholder= "Email"  required >
+                    <i class="fa-solid fa-user"></i>
+                    </div>
+                    <br>
+                    <div class="pass">
+                        <input style="background-color: darksalmon;" type="password" id="password" placeholder="Password" maxlength="12" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <br>
+                    <div class="btn">
+                    <button style="font-size: 20px; background-color: black; color: white; width: 100px;" type="button" onClick="submitLogin()">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+</div>
+
+</body>
+</html>
+
